@@ -1,0 +1,37 @@
+'scopeName': 'source.qasm_a'
+'name': 'Assembled qxzASM'
+'fileTypes': ['qasm_a']
+'patterns': [
+    {
+      'match': '
+      (\\h*)\\s*;\\s*(?:
+      
+      (?:(bcall|bjump|ldir|ldi|cpir|cpi|inir|ini|outir|outi|neg|retn|im|rrd|lddr|ldd|cpdr|cpd|indr|ind|outdr|outd|reti|nop|ld|inc|dec|exx|ex|djnz|jr|rlca|rla|daa|scf|rrca|rra|cpl|ccf|halt|add|adc|sub|sbc|and|xor|or|cp|ret|pop|jp|call|push|rst|out|in|di|ei|rld|rlc|rrc|rl|rr|sla|sra|sll|srl|bit|res|set)\
+      |([^.\\s]\\S*))\
+      
+      (?:\\s+\\(?(?:([\\+-]?\\d+|\\$\\h+)|(a|af|b|b?c|d|d?e|h|h?l)|(n?z|n?c|po|pe|p|m)|(@\\w+)|(\\w+)|([^,/\\s:]+))\\)?\
+      (?:(,)|,\\(?(?:([\\+-]?\\d+|\\$\\h+)|(a|af|b|b?c|d|d?e|h|h?l)|(@\\w+)|(\\w+)|([^,/\\s:]+))\\)?)?)?\
+      \\s*)?'
+      'captures': {
+        1: {'name':'entity.name.function'}
+        
+        2: {'name':'keyword'}
+        3: {'name':'invalid.illegal'}
+        
+        4: {'name':'constant.numeric'}
+        5: {'name':'string'}
+        6: {'name':'entity.name.type.class'}
+        7: {'name':'variable.interpolation'}
+        8: {'name':'variable'}
+        9: {'name':'invalid.illegal'}
+        
+        10: {'name':'invalid.illegal'}
+        
+        11: {'name':'constant.numeric'}
+        12: {'name':'string'}
+        13: {'name':'variable.interpolation'}
+        14: {'name':'variable'}
+        15: {'name':'invalid.illegal'}
+      }
+    }
+]
