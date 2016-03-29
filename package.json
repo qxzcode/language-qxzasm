@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Syntax highlighting for qxzASM",
   "main": "./lib/main",
+  "repository": "https://github.com/qxzcode/language-qxzasm",
   "engines": {
     "atom": "*",
     "node": "*"

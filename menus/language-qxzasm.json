@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "qxzASM",
+          "submenu": [
+            {
+              "label": "Assemble qxzASM",
+              "command": "language-qxzasm:assemble"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "context-menu": {
+    "atom-text-editor": [
+      
+    ]
+  }
+}
