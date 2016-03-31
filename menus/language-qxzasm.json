@@ -9,6 +9,14 @@
             {
               "label": "Assemble qxzASM",
               "command": "language-qxzasm:assemble"
+            },
+            {
+              "label": "Compile qxzLang",
+              "command": "language-qxzasm:compile"
+            },
+            {
+              "label": "Compile and assemble qxzLang",
+              "command": "language-qxzasm:compile-assemble"
             }
           ]
         }

@@ -15,4 +15,4 @@ You can try out the assembler [on my GitHub Pages site](http://qxzcode.github.io
   - labels
   - system and user-defined constants
  - Assemble code within Atom
-  - Just click `Packages -> qxzASM -> Assemble qxzASM`; the output opens in a new window
+  - Just click `Packages -> qxzASM -> Assemble qxzASM`; the output opens in a new editor
