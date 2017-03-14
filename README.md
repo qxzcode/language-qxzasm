@@ -11,8 +11,8 @@ You can try out the assembler [on my GitHub Pages site](http://qxzcode.github.io
 ### Features of this Atom package
  - Syntax highlighting for qxzASM (`*.qasm`) and hexadecimal assembler output (`*.qasm_a`)
  - Code completion for
-  - assembly commands
-  - labels
-  - system and user-defined constants
+   - assembly commands
+   - labels
+   - system and user-defined constants
  - Assemble code within Atom
-  - Just click `Packages -> qxzASM -> Assemble qxzASM`; the output opens in a new editor
+   - Just click `Packages -> qxzASM -> Assemble qxzASM`; the output opens in a new editor
